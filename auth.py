@@ -22,6 +22,7 @@ class AuthWindow:
         self.window.grab_set()
 
         self.build_ui()
+#kdd
 
     def build_ui(self):
         header = tk.Frame(self.window, bg=COLOR_SECONDARY_BG, height=60)
